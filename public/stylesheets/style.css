@@ -1,0 +1,12 @@
+.border-bottom {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.navbar-nav .nav-item.active a {
+  color: #1ab394 !important;
+}
+
+.carousel-item {
+  height: 210px;
+  overflow: hidden;
+}

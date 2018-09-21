@@ -1,0 +1,34 @@
+<%-include header.html %>
+  <nav class="navbar fixed-top navbar-expand-lg  bg-light navbar-light border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/images/logo.png" width="30" height="30" alt="">
+      </a>
+      <a class="navbar-brand" href="#">公司名称</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="/">首页</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/abuot">公司介绍</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="container" style="padding-top:70px">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">首页</a></li>
+        <li class="breadcrumb-item active" aria-current="page">公司介绍</li>
+      </ol>
+    </nav>
+    <%-include banner.html %>
+  </div>
+  <%-include footer.html %>
